@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+.container > div:nth-child(1) {
+    background-color: #96ceb4;
+}
+.container > div:nth-child(2) {
+    background-color: #ff6f69;
+}
+.container > div:nth-child(3) {
+    background-color: #88d8b0;
+}
+
+.search {
+    border: 2.5px solid #F2F2F2;
+    display: flex;
+    display: inline-block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+    
+}
+
+.search > input[type=text]
+{
+    border: 1px solid #ccc;
+}
+
+.search > input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+
+
+.search > i {
+    background-color:#F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+}
+
+.search > span {
+    background-color:#0065FC;
+    border-radius: 0px 10px 10px 0px;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+}
+
+
+.Filters {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 20 px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.Filters > a {
+    margin: 20px;
+    color:black;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px 40px;
+    border: 2px solid #F2F2F2;
+}
+
+.Filters > a > i {
+    color: #0065FC;
+    padding: 10px;
+    text-align: center;
+    background-color:#DEEBFF;
+    border-radius: 40px 40px;
+}
+
+.Filters > a > span {
+    padding-right: 15px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.info{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    align-items:flex-start;
+    padding: 50 px;
+    text-align: center;
+}
+
+.info i {
+    border: 5px solid #555;
+    padding: 10px 10px;
+    color: #0065FC;
+    padding: 10px;
+    background-color:#DEEBFF;
+    border-radius: 40px 40px;
+}
+
+
+
+
+
+
+
+
